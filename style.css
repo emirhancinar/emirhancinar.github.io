@@ -1,6 +1,6 @@
 table ,tr,td{
     border: solid 1px;
-    color: white;
+    font: white;
 }
 
 #center{
@@ -8,7 +8,11 @@ table ,tr,td{
     margin-right:auto;
 }
 body{
-    background: url(nehir.jpg);
+    background: url(resimler/nehir.jpg);
     background-position: top;
         background-size: cover;
+}
+a{
+    width: 42px;
+    height: 42px;
 }
