@@ -1,6 +1,10 @@
 table ,tr,td{
     border: solid 1px;
-    font: white;
+    width: 400px;
+}
+.yazi 
+{
+    color: white;
 }
 
 #center{
