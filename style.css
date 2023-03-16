@@ -1,33 +1,40 @@
-/* table ,tr,td{
-    border: solid 1px;
-    width: 400px;
-}
-.yazi 
-{
-    color: white;
-}
 
-#center{
+/* #center{
     margin-left: auto;
     margin-right:auto;
-} */
+}  */
 body{
-    
+    margin: 0;
     background-color: white;
-    padding: 15px;
+    padding: 10px;
     /* background: url(resimler/nehir.jpg);
     background-position: top;
         background-size: cover; */
 }
 .first{
     background-color: gray;
-    padding: 15px;
+    padding: 10px;
 }
 .content{
-    /* background: url(resimler/nehir.jpg); */
-    background-color: aqua;
+    background: url(resimler/nehir.jpg);
+    /* background-color: aqua; */
+    height: 400px;
 }
-a{
-    width: 42px;
-    height: 42px;
+.header-logo {
+    display: inline-block;
+    color: #DF2E38;
+    text-decoration: none;
+    font-size: 25px;
+}
+.header-nav{
+    display: inline-block;
+    text-align: right;
+}
+.header-nav-ıtems{
+    display: inline-block;
+    text-decoration: none;
+}
+.header-nav-ıtems{
+    display: inline-block;
+    text-decoration: none;
 }
