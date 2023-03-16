@@ -9,20 +9,13 @@
 }
 body{
     margin: 0;
-    background-color: white;
-    padding: 10px;
-    
 }
-.first{
-    background-color: gray;
-    padding: 10px;
-}
+
 .content{
     background: url(resimler/nehir.jpg);
     /* background-color: aqua; */
     height: 400px;
 }
-
 .header-logo {
     color: #DF2E38;
     text-decoration: none;
@@ -46,7 +39,12 @@ body{
     text-decoration: none;
     color: red;
 }
-
-
+.middle{
+    height: 400px;
+    background-color: aqua;
+}
+.hak h2{
+    text-align: center;
+}
 
 
