@@ -1,4 +1,4 @@
-table ,tr,td{
+/* table ,tr,td{
     border: solid 1px;
     width: 400px;
 }
@@ -10,11 +10,22 @@ table ,tr,td{
 #center{
     margin-left: auto;
     margin-right:auto;
-}
+} */
 body{
-    background: url(resimler/nehir.jpg);
+    
+    background-color: white;
+    padding: 15px;
+    /* background: url(resimler/nehir.jpg);
     background-position: top;
-        background-size: cover;
+        background-size: cover; */
+}
+.first{
+    background-color: gray;
+    padding: 15px;
+}
+.content{
+    /* background: url(resimler/nehir.jpg); */
+    background-color: aqua;
 }
 a{
     width: 42px;
