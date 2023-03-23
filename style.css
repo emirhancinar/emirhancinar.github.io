@@ -1,10 +1,5 @@
 
- .center {
-    display:block;
-    text-align: center;
-    color: white;
-}  
-*{
+ *{
     box-sizing: border-box;
 }
 body{
@@ -46,5 +41,9 @@ body{
 .hak h2{
     text-align: center;
 }
-
+.center {
+    display:block;
+    text-align: center;
+    color: white;
+} 
 
