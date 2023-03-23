@@ -10,35 +10,34 @@
 body{
     margin: 0;
 }
-
-.content{
-    background: url(resimler/nehir.jpg);
-    /* background-color: aqua; */
-    height: 400px;
+.main-header{
+    background-color: yellow;
+    padding: 10px 20px;
 }
-.header-logo {
-    color: #DF2E38;
+.main-header-logo{
     text-decoration: none;
-    font-size: 25px;
+    color: red;
+    font-size: 20px;
 }
-
-.header-nav{
+.main-nav{
     display: inline-block;
     text-align: right;
     width: calc(100% - 100px);
 }
-.header-nav-items{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-.header-nav-item{
+.main-nav-items{
     display: inline-block;
-    margin: 0 10px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
-.header-nav-item a{
-    text-decoration: none;
-    color: red;
+.main-nav-item{
+    margin: 0 10px;
+    display: inline-block;
+    
+}
+.main-nav-item a{
+    text-decoration: none;    
+    color: brown;
 }
 .middle{
     height: 400px;
