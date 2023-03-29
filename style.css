@@ -36,14 +36,41 @@ body{
 }
 .middle{
     height: 400px;
-    background-color: aqua;
+    background: url(resimler/nehir.jpg);
+}
+.middle-education{
+    display: inline-block;
+    height: 100%;
+    width: 49%;
+    background-color: #118ab2;
+}
+
+.middle-language{
+    display: inline-block;
+    height: 100%;
+    width: 49%;
+    background-color: #ef476f;
+}
+.container{
+    display: flex;
+    background-color: #4361ee;
+    padding: 15px;
+    justify-content: center;
+}
+.container-item{
+    margin: 20px;
+}
+.container-item img{
+    width: 42px;
+    height: 42px;
 }
 .hak h2{
     text-align: center;
 }
-.center {
+
+/* .center {
     display:block;
     text-align: center;
     color: white;
-} 
+}  */
 
