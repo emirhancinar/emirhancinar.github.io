@@ -37,19 +37,20 @@ body{
 .middle{
     height: 400px;
     background: url(resimler/nehir.jpg);
+    color: red;
 }
 .middle-education{
     display: inline-block;
     height: 100%;
     width: 49%;
-    background-color: #118ab2;
+    /* background-color: #118ab2; */
 }
 
 .middle-language{
     display: inline-block;
     height: 100%;
     width: 49%;
-    background-color: #ef476f;
+    /* background-color: #ef476f; */
 }
 .container{
     display: flex;
