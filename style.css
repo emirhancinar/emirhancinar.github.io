@@ -41,17 +41,18 @@ body{
 }
 .middle-education{
     display: inline-block;
-    height: 100%;
+    height: 80%;
     width: 49%;
     /* background-color: #118ab2; */
 }
 
 .middle-language{
     display: inline-block;
-    height: 100%;
+    height: 80%;
     width: 49%;
     /* background-color: #ef476f; */
 }
+
 .container{
     display: flex;
     background-color: #4361ee;
@@ -64,6 +65,11 @@ body{
 .container-item img{
     width: 42px;
     height: 42px;
+}
+.hak{
+    background-color:black ;
+    color: white;
+    margin: 0;
 }
 .hak h2{
     text-align: center;
