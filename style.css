@@ -123,9 +123,11 @@ body{
     position: absolute;
     width: 170px;
     bottom: 40px;
-    /* background: red; */
+    display: flex;
+    justify-content: space-between;
 }
 .home-sci a {
+    position: relative;
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -135,9 +137,32 @@ body{
     border: 2px solid #00abf0;
     border-radius: 50%;
     font-size: 20px;
-    color: #00abf0;
     text-decoration: none;
+    z-index: 1;
+    overflow: hidden;
 }
-
-
+.home-sci a i{
+    color: #00abf0;
+}
+.home-sci a:hover i{
+    color: #081b29;
+}
+.home-sci a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #00abf0;
+    z-index: -1;
+    transition: .5s;
+}
+.home-sci a:hover::before{
+    width: 100%;
+}
+.foto{
+    display: flex;
+    
+}
 
