@@ -21,7 +21,7 @@
     </header>
     <section class="home">
         <div class="home-content">
-            <h1>Hi,I 'm Emirhan Çınar</h1>
+            <h1>Hi,I 'm <span class="loopText"></span></h1>
             <h3>Software Developer</h3>
             <p>I am a 3rd year student at Marmara University computer engineering department.
                  I live in Kocaeli. My hometown is Erzurum.</p>
@@ -36,7 +36,16 @@
             <a href="#"> <i class='bx bxl-linkedin'></i> </a>
         </div>
     </section>
-    
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"> </script>
+    <script>
+        var typingEffect=new Typed(".loopText",{
+            strings:["Coder","Emirhan Çınar",".Net Developer"],
+            loop:true,
+            typeSpeed:80,
+            backSpeed:100,
+            backDelay:1500
+        })
+    </script>
    
 </body>
 </html>
